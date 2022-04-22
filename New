@@ -1,0 +1,26 @@
+package classandobject;
+
+public class AccountHolerObjects {
+ 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		 AccountHoler x =new AccountHoler();
+		 AccountHoler y =new AccountHoler();
+		 x.firstName = "Tom";
+		 x.lastnem = "Smith";
+		 x.age = 29;
+		 x.accountBalance = 12000;
+		 x.testEligiblity();
+		 
+		 y.firstName = "Solomon";
+		 y.lastnem = "Ature";
+		 y.age = 12;
+		 y.accountBalance = 11000;
+		 y.testEligiblity();
+		 System.out.println("eligibleStatus  " +x.eligiblity);
+		 System.out.println("eligibleStatus  " +y.eligiblity);
+		 
+	}
+
+}
